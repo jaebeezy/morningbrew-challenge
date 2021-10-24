@@ -1,0 +1,48 @@
+.splash-page {
+  width: 50%;
+  background-color: black;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1,
+  h2 {
+    margin: 0px;
+  }
+
+  h1 {
+    font-weight: 900;
+    font-size: 4.5rem;
+  }
+
+  h2 {
+    font-weight: 300;
+  }
+}
+
+.form-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+}
+
+@media screen and (max-width: 375px) {
+  .splash-page {
+    width: 100%;
+    height: 22%;
+    h1 {
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1rem;
+    }
+  }
+  .form-container {
+    width: 100%;
+    height: 50%;
+  }
+}
